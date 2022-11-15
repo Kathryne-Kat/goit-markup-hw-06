@@ -799,6 +799,7 @@ address {
 .input-check {
   display: block;
   margin-top: 20px;
+  appearance: none;
 }
 .input-check:checked + .check-text span {
   background-color: var(--accent-text-color);
@@ -811,9 +812,7 @@ address {
   margin-left: 4px;
   text-decoration-skip-ink: none;
 }
-.input-check {
-  appearance: none;
-}
+
 .modal-button {
   display: block;
   padding: 10px 52px;
